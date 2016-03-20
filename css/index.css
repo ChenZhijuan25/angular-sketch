@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	font-family: Arial;
+}
+*{
+	cursor: pointer;
+}
+ul,li{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.zuo{
+	color:black;
+	width:200px;
+	position: absolute;
+	top:80px;
+	bottom:0;
+	background: #d6d6d6;
+
+}
+ ul li{
+ 	text-align: center;
+ 	line-height:60px;
+	font-size:16px;
+
+}
+
+input{
+	/*border:none;*/
+	background: none;
+	margin-top:30px;
+	display: block;
+	float: left;
+}
+.top{
+	width: 100%;
+	height:80px;
+	color:#ccc;
+	line-height: 80px;
+	background: #383836;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.top li{
+	line-height: 100px;
+	display:block;
+	float: left;
+	margin-left:20px;
+}
+.top input{
+	display: block;
+	line-height: 100px;
+	margin-left:50px;
+}
+.you{
+	width: 100%;
+	position: absolute;
+	left:200px;
+	top:80px;
+	bottom: 0;
+	right: 0;
+	background:#d1d0d0;
+	padding:40px 200px;
+}
+#canvas1{
+	background:white;
+	border:1px solid black;
+}
+.active{
+	color:white;
+}
+.gongju{
+	background: #4498ec;
+
+}
+.widt{
+	margin-left:30px;
+	background:black;
+}
+.heig{
+	margin-left:30px;
+}
